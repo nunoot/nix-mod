@@ -10,7 +10,7 @@
   # Set this to an existing user of your choice.
   virtualisation.autoStart.user = "user";
   # Set the ids of the PCI devices to be blacklisted from the host, namely your GPU.
-  passthrough.ids = "xxxx:aaaa,xxxx:bbbb";
+  virtualisation.passthrough.ids = "xxxx:aaaa,xxxx:bbbb";
 
   specialisation = {
     example.configuration.virtualisation = {
